@@ -1,0 +1,44 @@
+object Form2: TForm2
+  Left = 594
+  Height = 240
+  Top = 176
+  Width = 320
+  Caption = 'Конвертер'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '2.0.0.4'
+  object Edit1: TEdit
+    Left = 8
+    Height = 23
+    Top = 8
+    Width = 296
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 8
+    Height = 25
+    Top = 40
+    Width = 296
+    Caption = 'м в км'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 8
+    Height = 25
+    Top = 72
+    Width = 296
+    Caption = 'Граммы в КГ'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 8
+    Height = 25
+    Top = 104
+    Width = 296
+    Caption = 'Кг в Тонны'
+    OnClick = Button3Click
+    TabOrder = 3
+  end
+end
